@@ -1,0 +1,35 @@
+[
+    {
+        "id": 0,
+        "title": "Everything is Magnet",
+        "year": "2018",
+        "players": 1,
+        "genre": "puzzle",
+        "description": "Everything is Magnet is a single-player adventure puzzle game about using magnets to guide an android who cannot jump through various environments.",
+        "engine": "Unity",
+        "url": "https://gamejolt.com/games/eim/337289",
+        "logo": "assets/images/eim-small.jpg"
+    },
+    {
+        "id": 1,
+        "title": "Bot",
+        "year": "2017",
+        "players": 1,
+        "genre": "arcade",
+        "description": "Survive for as long as you can in this energy-based collectathon!",
+        "engine": "Unity",
+        "url": "https://gamejolt.com/games/bot/294856",
+        "logo": "assets/images/bot-small.jpg"
+    },
+    {
+        "id": 1,
+        "title": "SparkPlug",
+        "year": "2015",
+        "players": 1,
+        "genre": "arcade",
+        "description": "Traverse the paths, don't touch the sides. Try to survive all 10 challenging screens!",
+        "engine": "JavaScript",
+        "url": "http://harrisonsanders.com/games/sparkplug/play.html",
+        "logo": "assets/images/sparkplug-small.jpg"
+    }
+]

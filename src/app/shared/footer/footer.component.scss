@@ -1,0 +1,15 @@
+.footer {
+    border-top: 2px solid black;
+    .right {
+        font-size: 1rem;
+        color: floralwhite;
+        @media (min-width: 768px) {
+            text-align: right;
+        }
+    }
+    h3 {
+        margin-bottom: 0;
+        color: floralwhite;
+        font-size: 1.5rem;
+    }
+}
