@@ -9,11 +9,25 @@ import { ActivatedRoute } from '../../../node_modules/@angular/router';
 })
 
 export class PortfolioComponent implements OnInit {
+
     games: Game[];
+    selectedGame: Game = null;
+
+    dialogOpened: boolean = false;
 
     constructor(private route: ActivatedRoute) { }
 
     ngOnInit() { 
         this.games = this.route.snapshot.data['games']
+    }
+
+    onGameSelected(game: Game) {
+        console.log(game);
+        this.selectedGame = game;
+        this.dialogOpened = true;
+    }
+
+    closeDialog() {
+        this.dialogOpened = false;
     }
 }

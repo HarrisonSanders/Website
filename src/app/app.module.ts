@@ -7,6 +7,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { HomeComponent } from './home/home.component';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { ClickOutsideModule } from 'ng4-click-outside';
 
 import { AppComponent } from './app.component';
 import { FooterComponent } from './shared/footer/footer.component';
@@ -15,6 +16,7 @@ import { ContactComponent } from './contact/contact.component';
 import { AboutComponent } from './about/about.component';
 import { PortfolioResolver } from './portfolio/portfolio.resolver';
 import { HttpClientModule } from '../../node_modules/@angular/common/http';
+import { InfoDialogComponent, SafePipe } from './portfolio/info-dialog/info-dialog.component';
 
 @NgModule({
   declarations: [
@@ -27,12 +29,15 @@ import { HttpClientModule } from '../../node_modules/@angular/common/http';
     ResumeComponent,
     ContactComponent,
     AboutComponent,
-    LocalHeaderComponent
+    LocalHeaderComponent,
+    InfoDialogComponent,
+    SafePipe
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    ClickOutsideModule
   ],
   providers: [
     PortfolioService,
