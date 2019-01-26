@@ -57,12 +57,12 @@
     <div class="row justify-content-center">
         <div class="col-sm-12 col-md-6 col-lg-4 mb-4" *ngFor="let game of games">
             <div class="card">
-                <img class="card-img-top" src="{{game.logo}}" (click)="onGameSelected(game)">
+                <img class="card-img-top clickable" src="{{game.logo}}" (click)="onGameSelected(game)">
                 <div class="card-body">
                     <h5 class="card-title">{{game.title}}</h5>
                     <h6 class="card-subtitle">{{game.year}}</h6>
                     <p class="card-text block-with-text">{{game.description}}</p>
-                    <a (click)="onGameSelected(game)" class="card-link">More Info</a>
+                    <a (click)="onGameSelected(game)" class="clickable card-link">More Info</a>
                 </div>
             </div>
         </div>

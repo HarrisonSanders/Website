@@ -1,8 +1,8 @@
 <nav class="navbar navbar-expand-md" style="background-color: #b9b1a8;">
     <div class="container">
-        <span class="navbar-brand" (click)="onHome()">Harrison Sanders</span>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
-          <span class="navbar-toggler-icon"></span>
+        <span class="navbar-brand clickable" (click)="onHome()">Harrison Sanders</span>
+        <button class="navbar-toggler custom-toggle-border" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+          <span class="navbar-toggler-icon custom-toggle"></span>
         </button>
       
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -10,7 +10,7 @@
             <li class="nav-item clickable">
               <a class="nav-link " (click)="onResume()">Resume</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item clickable">
               <a class="nav-link" (click)="onPortfolio()">Portfolio</a>
             </li>
             <!-- <li class="nav-item">
