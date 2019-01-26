@@ -29,3 +29,8 @@
   .block-with-text {
     @include multiLineEllipsis($lineHeight: 1.2em, $lineCount: 2, $bgColor: white);  
   }
+
+  .ovh {
+    overflow: hidden !important;
+    max-height: 100%;
+  }

@@ -19,14 +19,14 @@ const appRoutes: Routes = [
       games: PortfolioResolver
     }
   },
-  {
-    path: 'contact',
-    component: ContactComponent
-  },
-  {
-    path: 'about',
-    component: AboutComponent
-  },
+  // {
+  //   path: 'contact',
+  //   component: ContactComponent
+  // },
+  // {
+  //   path: 'about',
+  //   component: AboutComponent
+  // },
   {
     path: 'resume',
     component: ResumeComponent
