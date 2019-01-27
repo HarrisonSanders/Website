@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router, NavigationEnd } from '@angular/router';
 
 @Component({
   selector: 'app-root',
@@ -6,4 +7,24 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
+  displayFooter = false;
+
+  constructor(private router: Router) {
+    router.events.forEach((event) => {
+      if(event instanceof NavigationEnd) {
+          //See if there is any state change
+          window.scroll(0,0);
+          if(event.urlAfterRedirects.includes('home'))
+          {
+            this.displayFooter = false;
+          }
+          else
+          {
+            this.displayFooter = true;
+          }
+      }
+    });
+  }
+
+
 }

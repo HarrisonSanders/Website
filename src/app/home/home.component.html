@@ -1,38 +1,41 @@
-<local-header [title]="'Welcome!'"></local-header>
+<div class="row justify-content-center d-none d-sm-block">
+    <div class="col-12 mb-4 header">
+        <h1 [@nameIn]="">Harrison Sanders</h1>
+        <h4 [@titleIn]="">Game Programmer - Technical Designer - Web Developer</h4>
+        <h6 [@titleIn]="">Sound Designer - Video Editor</h6>
+    </div>
+</div>
+<div class="row justify-content-center d-sm-none">
+    <div class="col-12 header">
+        <h1>Harrison Sanders</h1>
+    </div>
+</div>
+<div class="row justify-content-center d-sm-none">
+    <div class="col-7 mb-2 header" [@titleIn]="">
+        <h4 style="border-bottom: 1px solid white;">Game Programmer</h4>
+        <h4 style="border-bottom: 1px solid white;">Technical Designer</h4>
+        <h4>Web Developer</h4>
+    </div>
+</div>
+<div class="row justify-content-center d-sm-none">
+    <div class="col-12 mb-4 header" [@titleIn]="">
+        <h6>Sound Designer - Video Editor</h6>
+    </div>
+</div>
+<div class="row" [@buttonsIn]="">
+    <div class="col-6 col-md-3 mb-3">
+        <button type="button" class="btn btn-block btn-outline-light" style="height: 50px;" (click)="onResume()">Resume</button>
+    </div>
+    <div class="col-6 col-md-3 mb-3">
+        <button type="button" class="btn btn-block btn-outline-light" style="height: 50px;" (click)="onPortfolio()">Portfolio</button>
+    </div>
+    <div class="col-6 col-md-3 mb-3">
+        <button type="button" class="btn btn-block btn-outline-light" style="height: 50px;" (click)="onAbout()">About</button>
+    </div>
+    <div class="col-6 col-md-3 mb-3">
+        <button type="button" class="btn btn-block btn-outline-light" style="height: 50px;" (click)="onContact()">Contact</button>
+    </div>
+</div>
 <div class="row justify-content-center">
-    <div class="col-xl-3 col-md-4 col-9 mb-4">
-        <carousel></carousel>
-    </div>
-    <div class="col-xl-6 col-md-8 col-sm-12">
-        <div class="card mb-4">
-            <div class="card-body">
-                <p class="card-text">Hello! My name is Harrison Sanders, a Computer Science Major with a Game Design and Development Minor at Michigan State University. I will graduate in May 2019. This website serves as a one-stop-shop for my resume, portfolio, and some other odds and ends I have created.</p>
-                <p class="card-text">This website was written utilizing Angular, Sass, and Bootstrap. </p>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-6 mb-4">
-                <img src="assets/images/gamejolt.png" class="clickable link" (click)="onGamejolt()">
-            </div>
-            <div class="col-sm-6 mb-4">
-                <img src="assets/images/github-button.png" class="clickable link" (click)="onGithub()">
-            </div>
-        </div>
-    </div>
-    <div class="col-xl-3 col-md-12">
-        <div class="row">
-            <div class="col-xl-12 col-md-6 mb-3">
-                <button type="button" class="btn btn-block btn-outline-light" style="height: 50px;" (click)="onResume()">Resume</button>
-            </div>
-            <div class="col-xl-12 col-md-6 mb-3">
-                <button type="button" class="btn btn-block btn-outline-light" style="height: 50px;" (click)="onPortfolio()">Portfolio</button>
-            </div>
-            <!-- <div class="col-xl-12 col-md-6 mb-3">
-                <button type="button" class="btn btn-block btn-outline-light" style="height: 50px;">About Me</button>
-            </div>
-            <div class="col-xl-12 col-md-6 mb-3">
-                <button type="button" class="btn btn-block btn-outline-light" style="height: 50px;">Contact</button>
-            </div> -->
-        </div>
-    </div>
+
 </div>

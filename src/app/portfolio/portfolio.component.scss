@@ -1,7 +1,7 @@
 
 /* mixin for multiline */
 //http://hackingui.com/front-end/a-pure-css-solution-for-multiline-text-truncation/
-@mixin multiLineEllipsis($lineHeight: 1.2em, $lineCount: 1, $bgColor: white){
+@mixin multiLineEllipsis($lineHeight: 1.2em, $lineCount: 1, $bgColor: #4b4d52){
     overflow: hidden;
     position: relative;
     line-height: $lineHeight;
@@ -27,7 +27,7 @@
   }
   
   .block-with-text {
-    @include multiLineEllipsis($lineHeight: 1.2em, $lineCount: 2, $bgColor: white);  
+    @include multiLineEllipsis($lineHeight: 1.2em, $lineCount: 2, $bgColor: #4b4d52);  
   }
 
   .ovh {

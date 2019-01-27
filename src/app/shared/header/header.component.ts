@@ -22,13 +22,13 @@ export class HeaderComponent implements OnInit {
         this.router.navigate(['portfolio']);
     }
 
-    // onGetToKnow() {
-    //     this.router.navigate(['about']);
-    // }
+    onMore() {
+        this.router.navigate(['about']);
+    }
 
-    // onContact() {
-    //     this.router.navigate(['contact']);
-    // }
+    onContact() {
+        this.router.navigate(['contact']);
+    }
 
     onHome() {
         this.router.navigate(['']);

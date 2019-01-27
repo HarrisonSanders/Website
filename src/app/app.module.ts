@@ -13,10 +13,11 @@ import { AppComponent } from './app.component';
 import { FooterComponent } from './shared/footer/footer.component';
 import { ResumeComponent } from './resume/resume.component';
 import { ContactComponent } from './contact/contact.component';
-import { AboutComponent } from './about/about.component';
+import { MoreComponent } from './more/more.component';
 import { PortfolioResolver } from './portfolio/portfolio.resolver';
 import { HttpClientModule } from '../../node_modules/@angular/common/http';
 import { InfoDialogComponent, SafePipe } from './portfolio/info-dialog/info-dialog.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations'
 
 @NgModule({
   declarations: [
@@ -28,7 +29,7 @@ import { InfoDialogComponent, SafePipe } from './portfolio/info-dialog/info-dial
     PortfolioComponent,
     ResumeComponent,
     ContactComponent,
-    AboutComponent,
+    MoreComponent,
     LocalHeaderComponent,
     InfoDialogComponent,
     SafePipe
@@ -37,7 +38,8 @@ import { InfoDialogComponent, SafePipe } from './portfolio/info-dialog/info-dial
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    ClickOutsideModule
+    ClickOutsideModule,
+    BrowserAnimationsModule
   ],
   providers: [
     PortfolioService,
