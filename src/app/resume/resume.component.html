@@ -1,7 +1,128 @@
 <local-header [title]="'Resume'"></local-header>
 
-<div class="row">
-    <div class="col">
-        <a href="http://www.harrisonsanders.com/Resume/Resume.pdf">Link to resume!</a>
+<div class="row justify-content-center mb-4">
+    <div class="col-10 col-lg-8 col-xl-6">
+        <div class="card" style="background-color: lightgrey;">
+            <div class="card-body">
+                <button class="btn btn-secondary btn-block" (click)="onDownload()">View/Download a PDF Copy</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row justify-content-center mb-4">
+    <div class="col-12 col-lg-9 col-xl-8">
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-title">Objective</h4>
+                <p class="card-text text-light">I am a Programmer/Technical Designer seeking full-time, contract, or intern Game Design employment in May 2019.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row justify-content-center mb-4">
+    <div class="col-12 col-lg-9 col-xl-8">
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-title">Skills</h4>
+                <div class="row">
+                    <div class="col-12">
+                        <h6 class="card-subtitle">Game Development</h6>
+                        <ul style="margin-bottom: 2.5rem;">
+                            <li class="text-light">Proficient in Game Programming, Mechanic Design, and Game Loop Design</li>
+                            <li class="text-light">Experienced with UI Design, Level Design, Sound Design, and Prototyping</li>
+                            <li class="text-light">Technical Knowledge: Unity, C# and C++, VR Experience, Photoshop</li>
+                        </ul>
+                    </div>
+                    <div class="col-12">
+                        <h6 class="card-subtitle">Web Development</h6>
+                        <ul style="margin-bottom: 2.5rem;">
+                            <li class="text-light">Fluent in Angular [TypeScript, JavaScript, HTML, Sass] and .NET</li>
+                            <li class="text-light">Familiar with Database Schema, SQL, Python, and PHP</li>
+                        </ul>
+                    </div>
+                    <div class="col-12">
+                        <h6 class="card-subtitle">Other</h6>
+                        <ul style="margin-bottom: 2.5rem;">
+                            <li class="text-light">Experienced with GarageBand, SFX creation, and basic music theory</li>
+                            <li class="text-light">Familiar with OBS, Camtasia, iMovie, and the video editing process</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row justify-content-center mb-4">
+    <div class="col-12 col-lg-8">
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-title">Education</h4>
+                <h6 class="card-subtitle">Michigan State University</h6>
+                <p class="card-body" style="padding-bottom: 0; margin-bottom: 0;">Bachelors in Computer Science
+                <br/>Minor in Game Design and Development
+                <br/>Graduating May 2019 | 3.9 GPA</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row justify-content-center mb-4">
+    <div class="col-12 col-lg-8">
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-title">Experience</h4>
+                <h6 class="card-subtitle">Programmer and Technical Designer</h6>
+                <p class="business">Games for Entertainment and Learning Lab, Michigan State University</p>
+                <p class="year">May 2018 - Present</p>
+                <ul style="margin-bottom: 2.5rem;">
+                    <li class="text-light">Designed, developed, and released games for clients on various multi-disciplinary teams</li>
+                    <li class="text-light">Lead Programmer for Quantum 3, an educational match-3 game; Programmed game systems and visual interactions, designed levels/UI layouts, made 2D animations, and edited promotional materials</li>
+                    <li class="text-light">Programmed game systems and visual interactions</li>
+                    <li class="text-light">Designed levels and UI layouts, made 2D animations, and edited videos</li>
+                </ul>
+                <h6 class="card-subtitle">Software Development Intern</h6>
+                <p class="business">Auto-Owners Insurance</p>
+                <p class="year">May 2017 - Present</p>
+                <ul style="margin-bottom: 2.5rem;">
+                    <li class="text-light">Collaborated with a team to build Angular/.NET/SQL web applications for ticket ordering, storing documentation, and registering for insurance exams</li>
+                    <li class="text-light">Maintained a legacy C# client application and a SharePoint site for mass emailing</li>
+                </ul>
+                <h6 class="card-subtitle">Instructor, Marching and Low Brass</h6>
+                <p class="business">Charlotte High School (alma mater) | Everett High School</p>
+                <p class="year">August 2016 – August 2018</p>
+                <ul class="">
+                    <li class="text-light">Instructed and supervised high school students</li>
+                    <li class="text-light">Used college marching experience to teach marching, playing, and leadership fundamentals</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row justify-content-center mb-4">
+    <div class="col-12 col-lg-8">
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-title">Extracirricular</h4>
+                <h6 class="card-subtitle">SpartaHack</h6>
+                <p class="business">Web Developer and Organizer</p>
+                <p class="year">2017 - 2019</p>
+                <ul style="margin-bottom: 2.5rem;">
+                    <li class="text-light">Designed the visuals and functionality for the SpartaHack website using Angular 6.0</li>
+                    <li class="text-light">Wrote forms to securely gather information and check 500 college-age students into the event</li>
+                    <li class="text-light">Handled loaning equipment and help desk in a university building for a 36-hour hackathon</li>
+                </ul>
+                <h6 class="card-subtitle">Michigan State Bands</h6>
+                <p class="business">Member</p>
+                <p class="year">2015 - Present</p>
+                <ul class="">
+                    <li class="text-light">Spartan Marching Band baritone squad leader</li>
+                    <li class="text-light">Concert Band principal euphonium and Spartan Brass participant</li>
+                </ul>
+            </div>
+        </div>
     </div>
 </div>

@@ -8,9 +8,11 @@
         "genre": "Puzzle",
         "description": "Quantum 3 is an educational match-3 game for all ages where fun meets quantum physics! Build subatomic particles, learn about the mysteries of fundamental physics and deploy antimatter to clear the way!",
         "engine": "Unity",
-        "url": "https://play.google.com/store/apps/details?id=com.gellab.quantum3",
+        "ios": "https://itunes.apple.com/us/app/quantum-3/id1406630529?mt=8",
+        "play": "https://play.google.com/store/apps/details?id=com.gellab.quantum3",
         "logo": "assets/images/quantum.png",
-        "video": "https://www.youtube.com/embed/XsSOvHgcZww"
+        "video": "https://www.youtube.com/embed/XsSOvHgcZww",
+        "role": "Programmer, Technical Designer"
     },
     {
         "id": 3,
@@ -23,7 +25,8 @@
         "engine": "Unity",
         "url": "https://gamejolt.com/games/mechalangelo/384960",
         "logo": "assets/images/mechalangelo.png",
-        "video": "https://www.youtube.com/embed/02y7-JvDffA"
+        "video": "https://www.youtube.com/embed/02y7-JvDffA",
+        "role": "Programmer, Technical Designer, Sound Designer"
     },
     {
         "id": 0,
@@ -35,7 +38,8 @@
         "description": "Everything is Magnet is a single-player adventure puzzle platformer about using magnets to guide an android who cannot jump through various environments.",
         "engine": "Unity",
         "url": "https://gamejolt.com/games/eim/337289",
-        "logo": "assets/images/eim-small.png"
+        "logo": "assets/images/eim-small.png",
+        "role": "Programmer, Designer"
     },
     {
         "id": 1,
@@ -48,19 +52,7 @@
         "engine": "Unity",
         "url": "https://gamejolt.com/games/bot/294856",
         "logo": "assets/images/bot.png",
-        "video": "https://www.youtube.com/embed/2GVnBoK7GpI"
-    },
-    {
-        "id": 2,
-        "title": "SparkPlug",
-        "platform": "HTML/JavaScript",
-        "year": "2015",
-        "players": 1,
-        "genre": "Arcade",
-        "description": "Traverse the paths, don't touch the sides. Try to survive all 10 challenging screens!",
-        "engine": "JavaScript",
-        "url": "http://harrisonsanders.com/games/sparkplug/play.html",
-        "logo": "assets/images/sparkplug.png"
+        "video": "https://www.youtube.com/embed/2GVnBoK7GpI",
+        "role": "Programmer"
     }
-
 ]

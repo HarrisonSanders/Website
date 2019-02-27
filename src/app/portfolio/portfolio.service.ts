@@ -24,6 +24,15 @@ export class PortfolioService {
             )
     }
 
+    getGamesInProgress(): Observable<Game[]> {
+
+        //Eventually, this makes the call to the API, Not a local data set
+        return this.httpClient.get<Game[]>("assets/json/games-in-progress.json", httpOptions)
+            .pipe(
+                catchError(this.handleError)
+            )
+    }
+
     private handleError(error: HttpErrorResponse) {
         // return an observable with a user-facing error message
         return throwError(

@@ -27,6 +27,12 @@ export class InfoDialogComponent implements OnInit {
     onPlay() {
         window.location.href = this.game.url;
     }
+    onPlayiOS() {
+        window.location.href = this.game.ios;
+    }
+    onPlayAndroid() {
+        window.location.href = this.game.play;
+    }
 }
 
 import { Pipe, PipeTransform } from '@angular/core';

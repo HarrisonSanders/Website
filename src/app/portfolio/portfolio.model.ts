@@ -8,4 +8,7 @@ export class Game {
     engine: string =  "Unity";
     url: string = "";
     logo: string = "";
+    ios: string = "";
+    play: string = "";
+    role: string = "";
 }

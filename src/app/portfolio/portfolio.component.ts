@@ -12,6 +12,8 @@ import * as $ from 'jquery';
 export class PortfolioComponent implements OnInit {
 
     games: Game[];
+    gamesInProgress: Game[];
+
     selectedGame: Game = null;
 
     dialogOpened: boolean = false;
@@ -21,7 +23,8 @@ export class PortfolioComponent implements OnInit {
     constructor(private route: ActivatedRoute) { }
 
     ngOnInit() { 
-        this.games = this.route.snapshot.data['games']
+        this.games = this.route.snapshot.data['games'];
+        this.gamesInProgress = this.route.snapshot.data['in_progress']
     }
 
     onGameSelected(game: Game) {

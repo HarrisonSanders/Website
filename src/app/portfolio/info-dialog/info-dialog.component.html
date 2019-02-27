@@ -18,9 +18,16 @@
                             <div class="card-body">
                                 <h5 class="card-title">{{game.title}}</h5>
                                 <h6 class="card-subtitle">{{game.year}}</h6>
+                                <h6 class="card-subtitle mt-2">{{game.role}}</h6>
                                 <p class="card-text">{{game.description}}</p>
-                                <div class="clickable mt-4">
+                                <div class="clickable mt-4" *ngIf="game.url">
                                     <button class="btn btn-secondary play btn-block" (click)="onPlay()">Play this game!</button>
+                                </div>
+                                <div class="clickable mt-4" *ngIf="game.ios">
+                                    <button class="btn btn-secondary ios btn-block" (click)="onPlayiOS()">iOS Download</button>
+                                </div>
+                                <div class="clickable mt-2" *ngIf="game.play">
+                                    <button class="btn btn-secondary android btn-block" (click)="onPlayAndroid()">Google Play Download</button>
                                 </div>
                             </div>
                         </div>

@@ -1,0 +1,27 @@
+[
+    {
+        "id": 4,
+        "title": "Monster Savings",
+        "platform": "iOS, Android",
+        "year": "2019",
+        "players": 1,
+        "genre": "Action",
+        "description": "Monster Savings targets an audience of early and pre-teens to teach them the importance of saving money through an exciting mobile game that combines an endless runner with collectable elements!",
+        "engine": "Unity",
+        "logo": "assets/images/monster.png",
+        "role": "Programmer"
+    },
+    {
+        "id": 3,
+        "title": "When Rivers Were Trails",
+        "year": "2019",
+        "platform": "PC, Mac, iOS, Android",
+        "players": 2,
+        "genre": "Point-and-Click",
+        "description": "When Rivers Were Trails is an educational 2D adventure game which follows an Anishinaabeg in the 1890’s who is displaced from Fond du Lac in Minnesota to California due to the impact of allotment acts on Indigenous communities.",
+        "engine": "Unity",
+        "logo": "assets/images/rivers.png",
+        "video": "https://player.vimeo.com/video/290179341",
+        "role": "Programmer"
+    }
+]

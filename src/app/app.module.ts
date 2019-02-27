@@ -18,6 +18,7 @@ import { PortfolioResolver } from './portfolio/portfolio.resolver';
 import { HttpClientModule } from '../../node_modules/@angular/common/http';
 import { InfoDialogComponent, SafePipe } from './portfolio/info-dialog/info-dialog.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations'
+import { InProgressResolver } from './portfolio/in-progress.resolver';
 
 @NgModule({
   declarations: [
@@ -43,7 +44,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations'
   ],
   providers: [
     PortfolioService,
-    PortfolioResolver
+    PortfolioResolver,
+    InProgressResolver
   ],
   bootstrap: [AppComponent]
 })

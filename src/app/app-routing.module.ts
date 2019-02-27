@@ -6,6 +6,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { ResumeComponent } from './resume/resume.component';
 import { ContactComponent } from './contact/contact.component';
 import { MoreComponent } from './more/more.component';
+import { InProgressResolver } from './portfolio/in-progress.resolver';
 
 const appRoutes: Routes = [
   {
@@ -16,7 +17,8 @@ const appRoutes: Routes = [
     path: 'portfolio',
     component: PortfolioComponent,
     resolve: {
-      games: PortfolioResolver
+      games: PortfolioResolver,
+      in_progress: InProgressResolver
     }
   },
   {

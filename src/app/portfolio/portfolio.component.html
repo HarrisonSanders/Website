@@ -41,30 +41,50 @@
     </div>
     <div class="row">
         <div class="col-sm mt-4">
-            <p style="text-align: center;">This is my game portfolio! These games were developed in a variety of settings, including classes at MSU and at the Games For Entertianment and Learning lab. With the exceptiong of Sparkplug, which I developed in a High School art class, these games were created collbaratively with other programmers, designers, and artists.
-            </p>
-            <p style="text-align: center;">All of these games have functional builds you can play right now! Quantum 3 is a mobile game and Mechalangelo is a game for the HTC Vive, but everything else can be explored in-browser.
-            </p>
+            <p style="text-align: center;">This is my game portfolio! These games were developed in a variety of settings and were created collaboratively with other programmers, designers, and artists. I worked in a variety of roles; they are specified by game.</p>
+            <p style="text-align: center;">Released games have functional builds you can play right now!</p>
         </div>
     </div>
     <div class="row">
         <div class="col-sm mt-4 mb-4" >
             <div class="line">
-                <h3>Games</h3>
+                <h3>Released Games</h3>
             </div>
         </div>
     </div>
     <div class="row justify-content-center">
-        <div class="col-sm-12 col-md-6 col-lg-4 mb-4" *ngFor="let game of games">
+        <div class="col-sm-12 col-md-6 col-lg-5 mb-4" *ngFor="let game of games">
             <div class="card">
                 <img class="card-img-top clickable" src="{{game.logo}}" (click)="onGameSelected(game)">
                 <div class="card-body">
                     <h5 class="card-title">{{game.title}}</h5>
-                    <h6 class="card-subtitle">{{game.year}}</h6>
+                    <h6 class="card-subtitle mb-2">{{game.year}}</h6>
+                    <h6 class="card-subtitle mb-1">{{game.role}}</h6>
                     <p class="card-text block-with-text">{{game.description}}</p>
                     <a (click)="onGameSelected(game)" class="clickable card-link">More Info</a>
                 </div>
             </div>
         </div>
-    </div>    
+    </div>
+    <div class="row">
+        <div class="col-sm mt-4 mb-4" >
+            <div class="line">
+                <h3>Games in Progress</h3>
+            </div>
+        </div>
+    </div>
+    <div class="row justify-content-center">
+        <div class="col-sm-12 col-md-6 col-lg-5 mb-4" *ngFor="let game of gamesInProgress">
+            <div class="card">
+                <img class="card-img-top clickable" src="{{game.logo}}" (click)="onGameSelected(game)">
+                <div class="card-body">
+                    <h5 class="card-title">{{game.title}}</h5>
+                    <h6 class="card-subtitle mb-2">{{game.year}}</h6>
+                    <h6 class="card-subtitle mb-1">{{game.role}}</h6>
+                    <p class="card-text block-with-text">{{game.description}}</p>
+                    <a (click)="onGameSelected(game)" class="clickable card-link">More Info</a>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
