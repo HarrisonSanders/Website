@@ -6,13 +6,13 @@
         "year": "2019",
         "players": 1,
         "genre": "Puzzle",
-        "description": "Quantum 3 is an educational match-3 game for all ages where fun meets quantum physics! Build subatomic particles, learn about the mysteries of fundamental physics and deploy antimatter to clear the way!",
+        "description": "Quantum 3 is an educational match-3 game for all ages where fun meets quantum physics! \n I was responsible for the grid system, the powerup system, and the tutorial systems. Build subatomic particles, learn about the mysteries of fundamental physics and deploy antimatter to clear the way!",
         "engine": "Unity",
         "ios": "https://itunes.apple.com/us/app/quantum-3/id1406630529?mt=8",
         "play": "https://play.google.com/store/apps/details?id=com.gellab.quantum3",
         "logo": "assets/images/quantum.png",
         "video": "https://www.youtube.com/embed/XsSOvHgcZww",
-        "role": "Programmer, Technical Designer"
+        "role": "Technical Designer, Programmer"
     },
     {
         "id": 3,
@@ -21,12 +21,12 @@
         "platform": "PC w/SteamVR",
         "players": 2,
         "genre": "Action",
-        "description": "Mechalangelo is an asyncronous 1-vs-1 multiplayer game for the HTC Vive (via Steam VR) and an Xbox 360 controller \n The VR player takes on the role of Mechalangelo, a giant painting machine. \n The controller player takes on the role of the agile, well-equipped glider. \n First to destroy the other wins!",
+        "description": "Mechalangelo is an asyncronous 1-vs-1 multiplayer game for the HTC Vive (via Steam VR) and an Xbox 360 controller. The VR player takes on the role of a giant painting machine, and the controller player takes on the role of a glider. First to destroy the other wins! I designed the ship controller and shooting mechanics, as well as the powerup and minion spawner systems.",
         "engine": "Unity",
         "url": "https://gamejolt.com/games/mechalangelo/384960",
         "logo": "assets/images/mechalangelo.png",
         "video": "https://www.youtube.com/embed/02y7-JvDffA",
-        "role": "Programmer, Technical Designer, Sound Designer"
+        "role": "Technical Designer, Programmer, Sound Designer"
     },
     {
         "id": 0,
@@ -35,11 +35,11 @@
         "year": "2018",
         "players": 1,
         "genre": "Puzzle",
-        "description": "Everything is Magnet is a single-player adventure puzzle platformer about using magnets to guide an android who cannot jump through various environments.",
+        "description": "Everything is Magnet is a single-player adventure puzzle platformer about using magnets to guide an android who cannot jump through various environments. I did level design, hazard design, and debugged an existing physics engine.",
         "engine": "Unity",
         "url": "https://gamejolt.com/games/eim/337289",
         "logo": "assets/images/eim-small.png",
-        "role": "Programmer, Designer"
+        "role": "Programmer, Level Designer"
     },
     {
         "id": 1,
@@ -48,7 +48,7 @@
         "year": "2017",
         "players": 1,
         "genre": "Arcade",
-        "description": "Survive for as long as you can in this energy-based collectathon!",
+        "description": "Survive for as long as you can in this energy-based collectathon! On this project, I designed the player controller and item systems.",
         "engine": "Unity",
         "url": "https://gamejolt.com/games/bot/294856",
         "logo": "assets/images/bot.png",
