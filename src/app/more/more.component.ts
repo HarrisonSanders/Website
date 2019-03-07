@@ -14,6 +14,6 @@ export class MoreComponent implements OnInit {
         window.location.href = "http://gamejolt.harrisonsanders.com"
     }
     onGithub() {
-        window.location.href = "https://github.com/HarrisonSanders/website"
+        window.location.href = "https://github.com/HarrisonSanders"
     }
 }

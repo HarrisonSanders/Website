@@ -46,6 +46,6 @@ export class FooterComponent implements OnInit {
     }
 
     aboutClick() {
-        this.router.navigate(['about']);
+        this.router.navigate(['links']);
     }
 }

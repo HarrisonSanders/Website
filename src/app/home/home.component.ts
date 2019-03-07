@@ -63,7 +63,7 @@ export class HomeComponent implements OnInit {
     }
 
     onAbout() {
-        this.router.navigate(['about'])
+        this.router.navigate(['links'])
     }
 
     onContact() {

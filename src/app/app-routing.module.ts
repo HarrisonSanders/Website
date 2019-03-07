@@ -26,7 +26,7 @@ const appRoutes: Routes = [
     component: ContactComponent
   },
   {
-    path: 'about',
+    path: 'links',
     component: MoreComponent
   },
   {

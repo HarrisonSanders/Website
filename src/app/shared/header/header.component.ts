@@ -23,7 +23,7 @@ export class HeaderComponent implements OnInit {
     }
 
     onMore() {
-        this.router.navigate(['about']);
+        this.router.navigate(['links']);
     }
 
     onContact() {
