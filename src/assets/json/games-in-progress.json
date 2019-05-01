@@ -9,19 +9,6 @@
         "description": "Monster Savings targets an audience of early and pre-teens to teach them the importance of saving money through an exciting mobile game that combines an endless runner with collectable elements! On this project, I designed the functionality for the character customization tool, a UI tool for ordering from a catalog, and a rock obstacle for the runner.",
         "engine": "Unity",
         "logo": "assets/images/monster.png",
-        "role": "Programmer"
-    },
-    {
-        "id": 3,
-        "title": "When Rivers Were Trails",
-        "year": "2019",
-        "platform": "PC, Mac, iOS, Android",
-        "players": 2,
-        "genre": "Point-and-Click",
-        "description": "When Rivers Were Trails is an educational 2D adventure game which follows an Anishinaabeg in the 1890’s who is displaced from Fond du Lac in Minnesota to California due to the impact of allotment acts on Indigenous communities. I was brought onto the project late in development to fix the save system and other various bugs.",
-        "engine": "Unity",
-        "logo": "assets/images/rivers.png",
-        "video": "https://player.vimeo.com/video/290179341",
-        "role": "Programmer"
+        "role": "Technical Designer"
     }
 ]

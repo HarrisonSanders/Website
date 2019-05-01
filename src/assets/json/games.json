@@ -29,6 +29,34 @@
         "role": "Technical Designer, Programmer, Sound Designer"
     },
     {
+        "id": 3,
+        "title": "The Grid Glitch",
+        "year": "2019",
+        "platform": "PC, Mac",
+        "players": 1,
+        "genre": "Adventure Puzzle",
+        "description": "The Grid Glitch is an isometric 3D game with snake-like controls. Rally unique bugs that follow the leader to solve puzzles and take over the world! For this project I served as the composer and sound designer, and impmented the news-like UI. I also designed the mid-level and level-by-level save system, and prototyped the movement control.",
+        "engine": "Unity",
+        "url": "https://gamejolt.com/games/tgg/411535",
+        "video": "https://www.youtube.com/embed/jkXFiEtAAvI",
+        "logo": "assets/images/glitch.png",
+        "role": "Technical, UI, and Sound Designer"
+    },
+    {
+        "id": 3,
+        "title": "When Rivers Were Trails",
+        "year": "2019",
+        "platform": "PC, Mac, iOS, Android",
+        "players": 1,
+        "genre": "Point-and-Click",
+        "description": "When Rivers Were Trails is an educational 2D adventure game which follows an Anishinaabeg in the 1890’s who is displaced from Fond du Lac in Minnesota to California due to the impact of allotment acts on Indigenous communities. I was brought onto the project late in development to fix the save system and other various bugs.",
+        "engine": "Unity",
+        "url": "https://indianlandtenure.itch.io/when-rivers-were-trails",
+        "logo": "assets/images/rivers.png",
+        "video": "https://player.vimeo.com/video/290179341",
+        "role": "Programmer and QA"
+    },
+    {
         "id": 0,
         "title": "Everything is Magnet",
         "platform": "Mac, PC, WebGL",
@@ -39,20 +67,6 @@
         "engine": "Unity",
         "url": "https://gamejolt.com/games/eim/337289",
         "logo": "assets/images/eim-small.png",
-        "role": "Programmer, Level Designer"
-    },
-    {
-        "id": 1,
-        "title": "Bot",
-        "platform": "Mac, PC, WebGL",
-        "year": "2017",
-        "players": 1,
-        "genre": "Arcade",
-        "description": "Survive for as long as you can in this energy-based collectathon! On this project, I designed the player controller and item systems.",
-        "engine": "Unity",
-        "url": "https://gamejolt.com/games/bot/294856",
-        "logo": "assets/images/bot.png",
-        "video": "https://www.youtube.com/embed/2GVnBoK7GpI",
-        "role": "Programmer"
+        "role": "Level Designer, Programmer"
     }
 ]
