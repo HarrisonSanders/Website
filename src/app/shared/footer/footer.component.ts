@@ -41,11 +41,7 @@ export class FooterComponent implements OnInit {
         this.router.navigate(['resume']);
     }
 
-    portfolioClick() {
-        this.router.navigate(['portfolio']);
-    }
-
-    aboutClick() {
-        this.router.navigate(['links']);
+    contactClick() {
+        this.router.navigate(['contact']);
     }
 }
