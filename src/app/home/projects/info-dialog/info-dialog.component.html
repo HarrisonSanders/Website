@@ -1,0 +1,62 @@
+<div *ngIf="dialogVisible" class="overlay" >
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-10 col-lg-8"  [delayClickOutsideInit]="true" (clickOutside)="onClosed()">
+                <div class="card" style="z-index: 100; margin-top: 5rem;">
+                    <div class="row justify-content-center">
+                        <div *ngIf="!game.video" class="col-11 mt-4">
+                            <img class="card-img-top" src="{{game.logo}}">
+                        </div>
+                        <div *ngIf="game.video" class="col-11 mt-4">
+                            <div class="embed-responsive embed-responsive-16by9">
+                                <iframe class="embed-responsive-item" [src]="game.video | safe" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-8">
+                            <div class="card-body">
+                                <h5 class="card-title">{{game.title}}</h5>
+                                <h6 class="card-subtitle">{{game.year}}</h6>
+                                <h6 class="card-subtitle mt-2">{{game.role}}</h6>
+                                <p class="card-text">{{game.description}}</p>
+                                <div class="clickable mt-4" *ngIf="game.url">
+                                    <button class="btn btn-secondary play btn-block" (click)="onPlay()">Play this game!</button>
+                                </div>
+                                <div class="clickable mt-4" *ngIf="game.ios">
+                                    <button class="btn btn-secondary ios btn-block" (click)="onPlayiOS()">iOS Download</button>
+                                </div>
+                                <div class="clickable mt-2" *ngIf="game.play">
+                                    <button class="btn btn-secondary android btn-block" (click)="onPlayAndroid()">Google Play Download</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-3 col-11 mt-sm-3">
+                            <div class="row" style="margin-left: .25rem;">
+                                <div class="col-12">
+                                    <div class="card-body descriptor">
+                                        <h5 class="card-title" style="margin-bottom: 0;">Genre</h5>
+                                        <p class="card-text top-descriptor">{{game.genre}}</p>
+                                        <h5 class="card-title" style="margin-bottom: 0;">Players</h5>
+                                        <p class="card-text top-descriptor" style="border-bottom: 1px solid grey;">{{game.players}}</p>
+                                        <h5 class="card-title" style="margin-bottom: 0;">Engine</h5>
+                                        <p class="card-text top-descriptor" style="border-bottom: 1px solid grey;">{{game.engine}}</p>
+                                        <h5 class="card-title" style="margin-bottom: 0;">Platform</h5>
+                                        <p class="card-text">{{game.platform}}</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="card-body">
+                                <button class="btn btn-secondary back btn-block" (click)="onClosed()">Back</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

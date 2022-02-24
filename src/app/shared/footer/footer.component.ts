@@ -17,7 +17,7 @@ export class FooterComponent implements OnInit {
             if(event instanceof NavigationEnd) {
                 //See if there is any state change
                 window.scroll(0,0);
-                if(event.urlAfterRedirects.includes('home') || event.urlAfterRedirects.includes('contact'))
+                if(event.urlAfterRedirects.includes('contact'))
                 {
                   this.displayFooter = false;
                   this.displayContact = false;

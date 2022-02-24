@@ -18,14 +18,6 @@ export class HeaderComponent implements OnInit {
         this.router.navigate(['resume']);
     }
 
-    onPortfolio() {
-        this.router.navigate(['portfolio']);
-    }
-
-    onMore() {
-        this.router.navigate(['links']);
-    }
-
     onContact() {
         this.router.navigate(['contact']);
     }

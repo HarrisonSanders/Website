@@ -1,0 +1,31 @@
+[
+    {
+        "id": 1,
+        "title": "Quantum 3",
+        "platform": "iOS, Android",
+        "year": "2019",
+        "players": 1,
+        "genre": "Puzzle",
+        "description": "Quantum 3 is an educational match-3 game for all ages where fun meets quantum physics! \n I was responsible for the grid system, the powerup system, and the tutorial systems. Build subatomic particles, learn about the mysteries of fundamental physics and deploy antimatter to clear the way!",
+        "engine": "Unity",
+        "ios": "https://itunes.apple.com/us/app/quantum-3/id1406630529?mt=8",
+        "play": "https://play.google.com/store/apps/details?id=com.gellab.quantum3",
+        "logo": "assets/images/quantum.png",
+        "video": "https://www.youtube.com/embed/XsSOvHgcZww",
+        "role": "Lead Technical Designer"
+    },
+    {
+        "id": 2,
+        "title": "Mechalangelo",
+        "year": "2018",
+        "platform": "PC w/SteamVR",
+        "players": 2,
+        "genre": "Action",
+        "description": "Mechalangelo is an asyncronous 1-vs-1 multiplayer game for the HTC Vive (via Steam VR) and an Xbox 360 controller. The VR player takes on the role of a giant painting machine, and the controller player takes on the role of a glider. First to destroy the other wins! I designed the ship controller and shooting mechanics, as well as the powerup and minion spawner systems.",
+        "engine": "Unity",
+        "url": "https://gamejolt.com/games/mechalangelo/384960",
+        "logo": "assets/images/mechalangelo.png",
+        "video": "https://www.youtube.com/embed/02y7-JvDffA",
+        "role": "Technical Designer, Sound Designer"
+    }
+]

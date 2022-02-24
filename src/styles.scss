@@ -1,6 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
 body {
-    background-color: #393939;
+    background-color: #272727;
 }
 img {
     width: 100%;
@@ -8,8 +8,11 @@ img {
 .clickable {
     cursor: pointer;
 }
-h1, h2, h3 {
+h1 {
     color: #FF5A09;
+}
+h2, h3 {
+    color: white;
 }
 .card {
     background-color: #4b4d52;

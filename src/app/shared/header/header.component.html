@@ -1,6 +1,8 @@
-<nav class="navbar navbar-expand-md" style="background-color: #b9b1a8;">
+<nav class="navbar navbar-expand-md" style="background-color: #7c7c7c;">
     <div class="container">
-        <span class="navbar-brand clickable" (click)="onHome()">Harrison Sanders</span>
+        <span class="navbar-brand clickable" (click)="onHome()">
+          <img src="favicon.ico" style="width: 2rem;">
+        </span>
         <button class="navbar-toggler custom-toggle-border" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
           <span class="navbar-toggler-icon custom-toggle"></span>
         </button>
@@ -11,24 +13,12 @@
               <a class="nav-link " data-toggle="collapse" data-target="#navbarSupportedContent" (click)="onResume()">Resume</a>
             </li>
             <li class="nav-item clickable">
-              <a class="nav-link" data-toggle="collapse" data-target="#navbarSupportedContent" (click)="onPortfolio()">Portfolio</a>
-            </li>
-            <li class="nav-item clickable">
-              <a class="nav-link" data-toggle="collapse" data-target="#navbarSupportedContent" (click)="onMore()">Links</a>
-            </li>
-            <li class="nav-item clickable">
               <a class="nav-link" data-toggle="collapse" data-target="#navbarSupportedContent" (click)="onContact()">Contact</a>
             </li>
           </ul>
           <ul class="navbar-nav d-none d-md-flex">
             <li class="nav-item clickable">
               <a class="nav-link " (click)="onResume()">Resume</a>
-            </li>
-            <li class="nav-item clickable">
-              <a class="nav-link" (click)="onPortfolio()">Portfolio</a>
-            </li>
-            <li class="nav-item clickable">
-              <a class="nav-link" (click)="onMore()">Links</a>
             </li>
             <li class="nav-item clickable">
               <a class="nav-link" (click)="onContact()">Contact</a>

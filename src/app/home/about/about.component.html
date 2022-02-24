@@ -1,0 +1,44 @@
+<local-header [title]="'About'"></local-header>
+
+<div class="row justify-content-center">
+    <div class="col-xl-3 col-md-4 col-7 mt-md-5 mb-4">
+        <div style="border: 2px solid white">
+            <img class="d-block w-100" src="assets/images/IMG_0159.jpg" alt="First slide">
+        </div>
+    </div>
+    <div class="col-xl-6 col-md-8 col-sm-12">
+        <div class="row">
+            <div class="col-sm" >
+                <div>
+                    <h3>Skills</h3>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center mb-3">
+            <div class="col-12">
+                <img src="assets/images/Skills.png">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm" >
+                <div>
+                    <h3>Bio</h3>
+                </div>
+            </div>
+        </div>
+        <div class="card mb-3">
+            <div class="card-body">
+                <p class="card-text">My name is Harrison Sanders, a Computer Science Major with a Game Design and Development Minor at Michigan State University. I will graduate in May 2019. This website serves as a one-stop-shop for my resume, portfolio, and some other odds and ends I have created.</p>
+                <p class="card-text">This website was written utilizing Angular, Sass, and Bootstrap. </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6 mb-4">
+                <img src="assets/images/gamejolt.png" class="clickable link" (click)="onGamejolt()">
+            </div>
+            <div class="col-sm-6 mb-4">
+                <img src="assets/images/github-button.png" class="clickable link" (click)="onGithub()">
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,88 @@
+<info-dialog id="dialog" [dialogVisible]="dialogOpened" [game]="selectedGame" (dialogClosed)="closeDialog()"></info-dialog>
+
+<div [ngClass]="{'ovh': dialogOpened}" class="">
+    <local-header [title]="'Projects'"></local-header>
+    <div class="row justify-content-center">
+        <div class="col-xl-12 col-12 mb-4" *ngFor="let game of games; let i = index">
+            <div class="card">
+                <div class="row justify-content-center">
+                    <div *ngIf="!game.video2" class="col-lg-6 col-md-11 col-10 mt-4 mb-4">
+                        <div id="{{'carouselInd' + i}}" class="carousel slide" data-interval="false">
+                            <ol class="carousel-indicators">
+                                <li data-target="#'carouselInd' + i" data-slide-to="0" class="active"></li>
+                                <li data-target="#'carouselInd' + i" data-slide-to="1"></li>
+                            </ol>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img class="card-img-top" src="{{game.logo}}">
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="embed-responsive embed-responsive-16by9">
+                                        <iframe class="embed-responsive-item" [src]="game.video | safe" allowfullscreen></iframe>
+                                    </div>
+                                </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#{{'carouselInd' + i}}" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#{{'carouselInd' + i}}" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div *ngIf="game.video2" class="col-lg-6 col-md-11 col-10 mt-4 mb-4">
+                        <div id="{{'carouselInd' + i}}" class="carousel slide" data-interval="false">
+                            <ol class="carousel-indicators">
+                                <li data-target="#'carouselInd' + i" data-slide-to="0" class="active"></li>
+                                <li data-target="#'carouselInd' + i" data-slide-to="1"></li>
+                            </ol>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <div class="embed-responsive embed-responsive-16by9">
+                                        <iframe class="embed-responsive-item" [src]="game.video | safe" allowfullscreen></iframe>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="embed-responsive embed-responsive-16by9">
+                                        <iframe class="embed-responsive-item" [src]="game.video2 | safe" allowfullscreen></iframe>
+                                    </div>
+                                </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#{{'carouselInd' + i}}" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#{{'carouselInd' + i}}" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 col-11 card-body">
+                        <h4 class="card-title">{{game.title}}</h4>
+                        <h6 class="card-subtitle mb-2">{{game.role}}</h6>
+                        <h6 class="card-subtitle mb-1">{{game.year}}</h6>
+                        <p class="card-text">{{game.description}}</p>
+                        <a (click)="onGameSelected(game)" class="clickable card-link">More Info</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row justify-content-center">
+        <div class="col-sm-12 col-md-6 col-lg-6 mb-4" *ngFor="let game of gamesInProgress">
+            <div class="card">
+                <img class="card-img-top clickable" src="{{game.logo}}" (click)="onGameSelected(game)">
+                <div class="card-body">
+                    <h5 class="card-title">{{game.title}}</h5>
+                    <h6 class="card-subtitle mb-2">{{game.role}}</h6>
+                    <h6 class="card-subtitle mb-1">{{game.year}}</h6>
+                    <p class="card-text block-with-text">{{game.description}}</p>
+                    <a (click)="onGameSelected(game)" class="clickable card-link">More Info</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

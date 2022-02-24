@@ -1,33 +1,25 @@
-import { PortfolioResolver } from './portfolio/portfolio.resolver';
-import { PortfolioComponent } from './portfolio/portfolio.component';
+import { ProjectsResolver } from './home/projects/projects.resolver';
+import { ProjectsComponent } from './home/projects/projects.component';
 import { HomeComponent } from './home/home.component';
 import { NgModule }             from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { ResumeComponent } from './resume/resume.component';
 import { ContactComponent } from './contact/contact.component';
-import { MoreComponent } from './more/more.component';
-import { InProgressResolver } from './portfolio/in-progress.resolver';
+import { AboutComponent } from './home/about/about.component';
+import { InProgressResolver } from './home/projects/projects.old.resolver';
 
 const appRoutes: Routes = [
   {
     path: 'home',
-    component: HomeComponent
-  },
-  {
-    path: 'portfolio',
-    component: PortfolioComponent,
+    component: HomeComponent,
     resolve: {
-      games: PortfolioResolver,
+      games: ProjectsResolver,
       in_progress: InProgressResolver
     }
   },
   {
     path: 'contact',
     component: ContactComponent
-  },
-  {
-    path: 'links',
-    component: MoreComponent
   },
   {
     path: 'resume',

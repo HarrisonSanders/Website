@@ -58,14 +58,6 @@ export class HomeComponent implements OnInit {
         this.router.navigate(['resume']);
     }
 
-    onPortfolio() {
-        this.router.navigate(['portfolio']);
-    }
-
-    onAbout() {
-        this.router.navigate(['links'])
-    }
-
     onContact() {
         this.router.navigate(['contact'])
     }
