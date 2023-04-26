@@ -1,4 +1,5 @@
 [
+    
     {
         "id": 3,
         "title": "Red Dead Online - The Naturalist",
@@ -6,7 +7,7 @@
         "platform": "PC, Xbox One, PS4, Stadia",
         "players": "1-32",
         "genre": "Online RPG",
-        "description": "Created Open World encounters for legendary bears, boars, and bison, giving players an opportunity for a unique cosmetic or field guide entry. Scripted the moment-to-moment gameplay interactions, worked with engineers for engine support, and collaborated with artists to get models, set dressing, and animations. Authored event locations and worked alongside teammates to test, iterate, and tune to give players an exploratory-but-satisfying experience.",
+        "description": "Created open world encounters for legendary bears, boars, and bison, giving players an opportunity for a unique cosmetic or field guide entry. Scripted the moment-to-moment gameplay interactions, worked with engineers for engine support, and collaborated with artists to get models, set dressing, and animations. Authored event locations and worked alongside teammates to test, iterate, and tune to give players an exploratory-but-satisfying experience.",
         "engine": "Proprietary",
         "url": "https://www.rockstargames.com/reddeadonline",
         "video": "https://www.youtube.com/embed/cugn9GOgwGI?start=43",
@@ -28,5 +29,18 @@
         "video": "https://www.youtube.com/embed/WXSbzkXg2ZE",
         "logo": "assets/images/rdo.png",
         "role": "Open World Designer - Random Encounters"
+    },
+    {
+        "id": 3,
+        "title": "Grand Theft Auto - Upcoming Title",
+        "year": "TBD",
+        "platform": "TBA",
+        "players": "TBA",
+        "genre": "TBA",
+        "description": "Created various types of open-world content for the upcoming entry in the Grand Theft Auto franchise. Collaboratively brainstormed unique event concepts. Detailed prerequisites in design documentation for artists, animators, engineers, and writers. Prototyped and iterated on events, both in C# and in an in-house visual scripting tool. Additionally, helped build components for use in the visual scripting tool.",
+        "engine": "Proprietary",
+        "url": "https://www.rockstargames.com/newswire/article/ak73k92o47ko75/grand-theft-auto-community-update",
+        "logo": "assets/images/GTA.jpg",
+        "role": "Designer - Open World Events"
     }
 ]

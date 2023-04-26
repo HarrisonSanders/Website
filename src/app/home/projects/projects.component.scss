@@ -8,6 +8,7 @@
     max-height: $lineHeight * $lineCount; 
     //text-align: justify;
     margin-right: -1em;
+    margin-bottom: 0.4em;
     padding-right: 1em;
     &:before {
       content: '...';
@@ -27,7 +28,7 @@
   }
   
   .block-with-text {
-    @include multiLineEllipsis($lineHeight: 1.2em, $lineCount: 2, $bgColor: #4b4d52);  
+    @include multiLineEllipsis($lineHeight: 1.3em, $lineCount: 3);  
   }
 
   .ovh {
