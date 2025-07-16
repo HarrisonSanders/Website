@@ -12,6 +12,6 @@ export class ResumeComponent implements OnInit {
     ngOnInit() { }
 
     onDownload() {
-        window.location.href = "http://www.harrisonsanders.com/Resume/Harrison_Sanders-Resume.pdf";
+        window.location.href = "http://www.harrisonsanders.com/Resume/Haven_Sanders-Resume.pdf";
     }
 }

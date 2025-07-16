@@ -1,5 +1,32 @@
 [
-    
+    {
+        "id": 1,
+        "title": "Tony Hawk's Pro Skater 3+4",
+        "year": "2025",
+        "platform": "PC, Xbox Platform, PS4/5, Switch",
+        "players": "1-8",
+        "genre": "Sports Action",
+        "description": " Designed new system-level features for this release! Pitched and implemented a data-driven NPC system that enabled efficient creation, placement, and configuration of NPCs. Created multiple AI behaviors for this tool. Crafted a player progression system within an existing framework, writing design documentation and overseeing implementation. Worked with the animation team to create several new charactrer special tricks. Collaborated with gameplay design to create in-game challenges.",
+        "engine": "Unreal Engine 4",
+        "url": "https://www.tonyhawkthegame.com/",
+        "video": "https://www.youtube.com/embed/OW0K-ucQCdA",
+        "video2": "https://www.youtube.com/embed/D-PedsiljOc",
+        "logo": "assets/images/thps.png",
+        "role": "Systems Designer"
+    },
+    {
+        "id": 3,
+        "title": "Grand Theft Auto VI",
+        "year": "2026",
+        "platform": "TBA",
+        "players": "TBA",
+        "genre": "Action, Adventure, Role-Playing",
+        "description": "Created various types of open-world content for the upcoming entry in the Grand Theft Auto franchise. Collaboratively brainstormed unique event concepts. Detailed prerequisites in design documentation for artists, animators, engineers, and writers. Prototyped and iterated on events, both in C# and in an in-house visual scripting tool. Additionally, helped build components for use in the visual scripting tool.",
+        "engine": "Proprietary",
+        "url": "https://www.rockstargames.com/newswire/article/ak73k92o47ko75/grand-theft-auto-community-update",
+        "logo": "assets/images/GTAVI.jpg",
+        "role": "Designer - Open World Events"
+    },
     {
         "id": 3,
         "title": "Red Dead Online - The Naturalist",
@@ -29,18 +56,5 @@
         "video": "https://www.youtube.com/embed/WXSbzkXg2ZE",
         "logo": "assets/images/rdo.png",
         "role": "Open World Designer - Random Encounters"
-    },
-    {
-        "id": 3,
-        "title": "Grand Theft Auto - Upcoming Title",
-        "year": "TBD",
-        "platform": "TBA",
-        "players": "TBA",
-        "genre": "TBA",
-        "description": "Created various types of open-world content for the upcoming entry in the Grand Theft Auto franchise. Collaboratively brainstormed unique event concepts. Detailed prerequisites in design documentation for artists, animators, engineers, and writers. Prototyped and iterated on events, both in C# and in an in-house visual scripting tool. Additionally, helped build components for use in the visual scripting tool.",
-        "engine": "Proprietary",
-        "url": "https://www.rockstargames.com/newswire/article/ak73k92o47ko75/grand-theft-auto-community-update",
-        "logo": "assets/images/GTA.jpg",
-        "role": "Designer - Open World Events"
     }
 ]

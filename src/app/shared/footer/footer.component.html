@@ -3,14 +3,19 @@
         <div class="footer">
             <div class="row" *ngIf="displayContact">
                 <div class="col-sm-12 col-md-6 mt-4 mb-2 mb-md-4">
-                    <h2>Harrison Sanders</h2>
-                    <h4>harrison@harrisonsanders.com</h4>
+                    <h2>Haven Sanders</h2>
+                    <h4>haven@harrisonsanders.com</h4>
                     <h4>(517) 231-8257</h4>
                 </div>
                 <div class="col-sm-12 col-md-6 mt-md-4 mb-4 right">
                     <a class="clickable" (click)="homeClick()"> home </a>|
                     <a class="clickable" (click)="resumeClick()"> resume </a>|
                     <a class="clickable" (click)="contactClick()"> contact </a>
+                </div>
+            </div>
+            <div class="row" *ngIf="displayContact">
+                <div class="col-12">
+                    <p class="align-center">Please pardon the url dust! harrisonsanders.com is in transition to havensanders.com.</p>
                 </div>
             </div>
         </div>
